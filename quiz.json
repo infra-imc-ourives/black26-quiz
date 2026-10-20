@@ -1,0 +1,605 @@
+{
+  "slug": "teste-do-bloqueio",
+  "passo_zero": {
+    "produto": {
+      "nome": "abertura da Black",
+      "tipo": "produto de entrada: abertura ao vivo e gratuita da Black, em 28/10/2026, às 19h",
+      "preco": "Gratuito",
+      "link": "https://black.elainneourives.com.br/primeiro-voce-v1/?utm_source=organico&utm_campaign=quiz&utm_medium=jaque"
+    },
+    "problema": "Eu faço tudo certo e a minha vida não anda. Tem algo travando e eu não sei o que é.",
+    "transformacao": "De quem vive para todo mundo e volta sempre ao mesmo lugar. Para quem enxerga o próprio bloqueio, se coloca em primeiro lugar e muda a frequência que repete a vida.",
+    "crenca": "Cocriamos quem somos. Emoções de baixa frequência guardadas no inconsciente, como culpa, rejeição e mágoa, formam a Assinatura Vibracional e bloqueiam os sonhos, mesmo de quem pensa positivo.",
+    "etapas_do_problema": [
+      "Bloqueio do Quase Lá",
+      "Bloqueio do Coração Generoso",
+      "Bloqueio do Ciclo Repetido",
+      "Bloqueio da Armadura Antiga"
+    ],
+    "prova_social": [
+      "DNA Milionário, o primeiro livro da Elainne, tem 15 milhões de cópias.",
+      "Mais de 3 milhões de seguidores nas redes.",
+      "Mais de 200 mil alunos nos cursos da Elainne.",
+      "Entre 2010 e 2015, a Elainne morou com os 3 filhos num escritório, com quase R$ 1 milhão em dívidas."
+    ],
+    "identidade": {
+      "design_system": "cliente/design-system/design-system.json",
+      "design_campanha": "cliente/entregas/quiz/teste-do-bloqueio/design-black.json",
+      "voz": "cliente/fundacao/tom-de-voz.md",
+      "palavras_proibidas": "cliente/fundacao/palavras-proibidas.txt"
+    }
+  },
+  "capa": {
+    "rotulo": "Teste do Bloqueio",
+    "titulo": "Descubra em 2 minutos o bloqueio que trava a sua vida",
+    "problema_nomeado": "o bloqueio que trava a sua vida",
+    "subtitulo": "Responda 8 perguntas e veja o que está segurando o seu dinheiro, o seu amor e a sua paz. No dia 28/10, eu mostro ao vivo o caminho para limpar esse bloqueio.",
+    "tempo_minutos": 2,
+    "botao": "Descobrir meu bloqueio",
+    "rotulo_resultado": "O seu Teste do Bloqueio"
+  },
+  "titulos_blocos": {
+    "espelho": "O bloqueio que mais pesa hoje",
+    "mapa": "O mapa dos 4 bloqueios",
+    "raiz": "De onde vem esse bloqueio",
+    "leitura": "O que as suas respostas mostram",
+    "custo": "O que esse bloqueio já está custando",
+    "futuro": "Se nada mudar",
+    "virada": "A virada",
+    "passos": "Seus primeiros passos, a partir de hoje",
+    "ponte": "Por que você precisa estar ao vivo no dia 28"
+  },
+  "compartilhar": {
+    "titulo": "A sua afirmação, pronta para levar com você",
+    "texto": "O nome do seu bloqueio fica só aqui, entre você e esta tela. O cartão mostra só a sua afirmação. Salve no celular e, se quiser, poste nos stories.",
+    "chamada": "Faça o seu teste",
+    "perfil": "@elainneourivesoficial",
+    "assinatura": "Primeiro Você · 28.10",
+    "rotulo_salto": "Meu próximo salto",
+    "frase_neutra_titulo": "Prefere não mostrar nada do resultado? Use esta frase:",
+    "frase_neutra": "Fiz o teste da Elainne e ele acertou em cheio. Faça o seu.",
+    "botao_salvar": "Salvar meu cartão",
+    "botao_copiar": "Copiar a frase"
+  },
+  "rodape": "Teste do Bloqueio · Black 2026 · movimento Primeiro Você.",
+  "perguntas": [
+    {
+      "id": "p1",
+      "tipo": "diagnostico",
+      "texto": "Quando você pensa positivo de manhã, quanto tempo isso dura no seu dia?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Quase o dia inteiro, sinto a diferença",
+          "pontos": 0
+        },
+        {
+          "id": "b",
+          "texto": "Até a primeira conta ou notícia ruim",
+          "pontos": 1
+        },
+        {
+          "id": "c",
+          "texto": "Alguns minutos, depois volto a me preocupar",
+          "pontos": 2
+        },
+        {
+          "id": "d",
+          "texto": "Já nem consigo começar o dia pensando positivo",
+          "pontos": 3
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "tipo": "diagnostico",
+      "texto": "Quando sobra um dinheiro extra, para onde ele vai primeiro?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Uma parte vai para algo meu, sem culpa",
+          "pontos": 0
+        },
+        {
+          "id": "b",
+          "texto": "Para a casa, e só o resto é meu",
+          "pontos": 1
+        },
+        {
+          "id": "c",
+          "texto": "Para a família, e eu fico para depois",
+          "pontos": 2
+        },
+        {
+          "id": "d",
+          "texto": "Nunca sobra, alguém sempre precisa mais do que eu",
+          "pontos": 3
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "tipo": "dor",
+      "texto": "Qual destas frases você mais repete no seu dia a dia?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Só preciso de mais disciplina",
+          "pontos": 0
+        },
+        {
+          "id": "b",
+          "texto": "Depois eu cuido de mim",
+          "pontos": 1
+        },
+        {
+          "id": "c",
+          "texto": "Sempre volto para o mesmo lugar",
+          "pontos": 2
+        },
+        {
+          "id": "d",
+          "texto": "Parece que nasci para não dar certo",
+          "pontos": 3
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "tipo": "diagnostico",
+      "texto": "Quando algo começa a dar certo na sua vida, o que costuma acontecer?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Continua dando certo, e eu aproveito",
+          "pontos": 0
+        },
+        {
+          "id": "b",
+          "texto": "Fico com medo de perder o que conquistei",
+          "pontos": 1
+        },
+        {
+          "id": "c",
+          "texto": "Do nada aparece um problema e trava tudo",
+          "pontos": 2
+        },
+        {
+          "id": "d",
+          "texto": "Eu desisto antes de ver o resultado",
+          "pontos": 3
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "tipo": "dor",
+      "texto": "Qual destas dores mais pesa na sua vida hoje?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Nenhuma pesa muito, quero crescer mais",
+          "pontos": 0
+        },
+        {
+          "id": "b",
+          "texto": "Falta de tempo para cuidar de mim",
+          "pontos": 1
+        },
+        {
+          "id": "c",
+          "texto": "O dinheiro que entra e vai embora",
+          "pontos": 2
+        },
+        {
+          "id": "d",
+          "texto": "Uma mágoa antiga que ainda dói quando lembro",
+          "pontos": 3
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "tipo": "diagnostico",
+      "texto": "Quando alguém te magoa, o que acontece dentro de você depois?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Converso, entendo e solto em poucos dias",
+          "pontos": 0
+        },
+        {
+          "id": "b",
+          "texto": "Fico remoendo por um tempo, mas passa",
+          "pontos": 1
+        },
+        {
+          "id": "c",
+          "texto": "Engulo e finjo que está tudo bem",
+          "pontos": 2
+        },
+        {
+          "id": "d",
+          "texto": "Guardo por anos e lembro como se fosse hoje",
+          "pontos": 3
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "tipo": "dor",
+      "texto": "Quantas vezes você já recomeçou algo para você e parou no meio?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Quase nunca, costumo ir até o fim",
+          "pontos": 0
+        },
+        {
+          "id": "b",
+          "texto": "Uma ou duas vezes",
+          "pontos": 1
+        },
+        {
+          "id": "c",
+          "texto": "Várias vezes, quase sempre por causa de alguém",
+          "pontos": 2
+        },
+        {
+          "id": "d",
+          "texto": "Perdi a conta, e já nem confio em mim",
+          "pontos": 3
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "tipo": "ancora",
+      "texto": "Há quanto tempo você adia colocar a sua vida em primeiro lugar?",
+      "opcoes": [
+        {
+          "id": "a",
+          "texto": "Não adio, já me coloco em primeiro",
+          "pontos": 0
+        },
+        {
+          "id": "b",
+          "texto": "Há alguns meses",
+          "pontos": 1
+        },
+        {
+          "id": "c",
+          "texto": "Há alguns anos",
+          "pontos": 2
+        },
+        {
+          "id": "d",
+          "texto": "Desde que me conheço por gente",
+          "pontos": 3
+        }
+      ]
+    }
+  ],
+  "etapas": [
+    {
+      "id": "e1",
+      "nome": "Bloqueio do Quase Lá",
+      "faixa": [
+        0,
+        6
+      ],
+      "resumo": "Você já sabe muito e pratica. O sentimento bom aparece de manhã, escapa no meio do dia, e a vida para sempre perto de virar.",
+      "compartilhar": {
+        "proximo_salto": "a constância",
+        "afirmacao": "Eu estou no comando do meu dia, do começo ao fim."
+      },
+      "devolutiva": {
+        "espelho": "Você acorda decidindo que hoje vai ser diferente, faz a sua oração, repete a sua afirmação e sente o peito leve. Aí chega a primeira conta, a primeira mensagem atravessada, e aquela paz some antes do almoço. Você sabe o caminho, e mesmo assim a vida para sempre a um passo de virar.",
+        "mapa_posicao": "Você está na primeira etapa porque o bloqueio ainda mora no sentimento do dia, longe das feridas antigas. O que separa você da próxima etapa é o hábito de deixar a própria vida para depois.",
+        "raiz": [
+          "Preste atenção nisso, porque eu também fui assim. Toda manhã eu dizia que era rica. No resto do dia, eu vibrava escassez, medo e reclamação. Eu era positiva por alguns minutos e negativa por horas.",
+          "No meu método, isso tem nome: incoerência harmônica. Acontece quando você sente abundância na oração ou na meditação e volta para a falta assim que abre os olhos. A sua Assinatura Vibracional é a soma do que você pensa, sente e faz durante o dia inteiro.",
+          "O Universo lê a soma, e a sua soma ainda está dividida. O pensamento sozinho não faz nada, mas é responsável por tudo. Você entendeu o caminho com a cabeça, e o sentimento ainda volta para o estado que o corpo conhece."
+        ],
+        "leitura_cruzada": {
+          "intro": "Agora olhe para três respostas suas juntas. Cada uma mostra em que momento do dia a sua frequência escapa.",
+          "trechos": {
+            "p2": {
+              "a": "Isso mostra que você já se permite receber, e isso é raro. O dinheiro encontra espaço na sua vida. O que ainda falta é o sentimento ficar firme quando o dia aperta, para essa permissão virar padrão.",
+              "b": "Você cuida da casa primeiro e só depois pensa em você. Parece organização, e em parte é. Quando o dinheiro é sempre o resto, o seu corpo aprende que você também é o resto, e o sentimento bom dura pouco.",
+              "c": "Aqui aparece um sinal que pede cuidado. A família vem antes e você fica para depois. No seu caso, isso ainda não virou ferida, e já tira energia da frequência que você constrói de manhã.",
+              "d": "Quando nunca sobra, a mente vive em modo de conta. Mesmo com afirmação de manhã, o dia inteiro passa calculando o que falta. Por isso a paz some cedo: a falta ocupa o espaço que a gratidão deixou."
+            },
+            "p3": {
+              "a": "Você acredita que o problema é disciplina. Olha que interessante: disciplina você já tem, porque acorda e pratica. O que escapa é o sentimento, e cobrar mais força de si só aumenta a pressão que derruba a sua frequência.",
+              "b": "Essa frase parece pequena, e ela pesa. Cada vez que você diz depois, o seu inconsciente anota que você vem em segundo plano. Somada às suas outras respostas, ela explica por que a decisão da manhã some até a noite.",
+              "c": "Essa frase mostra que você já percebeu o padrão, e perceber é o primeiro passo. A sensação de voltar ao mesmo lugar vem do corpo, que repete o estado emocional conhecido, mesmo quando a sua cabeça quer outro caminho.",
+              "d": "Essa frase dói, e eu sei o peso dela, porque já pensei assim no escritório com os meus filhos. A sua etapa ainda é leve. Isso mostra que você se cobra com uma dureza que a sua história pede para soltar."
+            },
+            "p6": {
+              "a": "Você resolve as mágoas com rapidez, e isso protege a sua frequência. Esse é um ponto forte para guardar. O bloqueio, então, mora no dia a dia, nas preocupações pequenas que roubam a sua paz sem fazer barulho.",
+              "b": "Remoer por um tempo é humano. Enquanto você remói, o corpo produz os hormônios do estresse e a mente repete a cena. Essas horas de remoer são exatamente as horas em que a sua frequência cai.",
+              "c": "Engolir para manter a paz cobra um preço. A emoção que fica sem saída se guarda no corpo e volta como cansaço e irritação. Ligada às suas outras respostas, ela explica por que o sentimento bom escapa.",
+              "d": "Essa resposta pede carinho. Uma mágoa guardada por anos continua viva no inconsciente e puxa a sua frequência para baixo, mesmo nos dias bons. Olhe para ela com calma, porque ela pode ser a raiz do seu quase."
+            }
+          },
+          "sintese": "Juntas, as suas respostas mostram uma pessoa que já sabe o caminho e pratica. O que falta é o sentimento ficar firme do começo ao fim do dia. Bingo, esse é o seu ponto de virada."
+        },
+        "custo": [
+          "Esse quase já está custando caro. Custa a energia de recomeçar todo dia do zero, como quem enche um balde furado. Custa a sensação de fazer tudo certo e ver a vida demorar a responder.",
+          "Custa também a sua confiança. Cada vez que algo começa a dar certo e para, você duvida um pouco mais de si. Você chega à noite com o corpo tenso, o celular na mão e a cabeça fazendo as contas do mês. E a oração do dia seguinte começa com um pouco menos de fé do que a de ontem."
+        ],
+        "futuro": [
+          "Se nada mudar, o quase vira hábito. A afirmação da manhã passa a soar como obrigação, e você começa a achar que o método é que falha. Com o tempo, o desânimo pesa mais do que a decisão. Você corre o risco de abandonar justamente o que estava perto de dar certo. Esse é o caminho que leva para a próxima etapa do mapa."
+        ],
+        "virada": [
+          "Agora vem a parte boa. Quando você enxerga que o problema está na soma do dia, você para de se cobrar mais força e passa a cuidar do sentimento nos momentos que importam. Pequenos ajustes durante o dia mudam a soma inteira.",
+          "Eu vi isso acontecer em mim. Quando eu deixei de ser positiva só de manhã e passei a vigiar o que eu sentia nas outras horas, a minha vida mudou muito rápido. Você já fez a parte mais difícil, que é decidir. Falta fazer essa decisão durar o dia todo."
+        ],
+        "primeiros_passos": [
+          {
+            "titulo": "Respire com o coração três vezes ao dia",
+            "texto": "Às 9h, às 14h e às 20h, coloque a atenção no peito e respire mais devagar por 30 segundos, como se o ar entrasse pelo coração. Depois lembre de alguém que você ama e sinta gratidão por 1 minuto."
+          },
+          {
+            "titulo": "Diga ao acordar: eu estou no comando",
+            "texto": "Antes de pegar o celular, sente na cama e diga em voz alta: eu estou no comando. Esse é um dos exercícios que eu mais uso. Ele marca, logo cedo, que quem decide o seu dia é você."
+          },
+          {
+            "titulo": "Guarde a frase do seu dia",
+            "texto": "Leia a sua afirmação sempre que a paz escapar: eu estou no comando do meu dia, do começo ao fim. Logo abaixo, ela está num cartão pronto para salvar no celular e, se quiser, postar."
+          }
+        ],
+        "ponte": [
+          "Você já sabe muito. O que falta é o caminho que segura a sua frequência o dia inteiro. No dia 28 de outubro, às 19h, eu faço ao vivo a abertura da Black Antecipada, antes da abertura para o público. É a maior oferta que eu já fiz em toda a minha história. O que eu tenho de mais intenso e libertador vai estar lá, com o caminho completo para limpar esse bloqueio. Uma noite assim não se repete.",
+          "Esteja comigo ao vivo, porque é naquela noite que tudo vai ser revelado pela primeira vez. Toque no botão, entre agora no grupo da Black, onde chegam o link e os avisos da nossa noite, e saia do quase."
+        ],
+        "prova": "Eu também vivia no quase. Fazia afirmação toda manhã e, mesmo assim, cheguei a quase R$ 1 milhão em dívidas, morando num escritório com os 3 filhos.",
+        "cta": {
+          "texto": "Quero sair do quase no dia 28",
+          "link": "https://black.elainneourives.com.br/primeiro-voce-v1/?utm_source=organico&utm_campaign=quiz&utm_medium=jaque"
+        }
+      }
+    },
+    {
+      "id": "e2",
+      "nome": "Bloqueio do Coração Generoso",
+      "faixa": [
+        7,
+        12
+      ],
+      "resumo": "Você cuida de todo mundo antes de você. O dinheiro, o tempo e a energia vão para os outros, e a sua vida fica para depois.",
+      "compartilhar": {
+        "proximo_salto": "o merecimento",
+        "afirmacao": "Eu mereço receber tudo o que eu dou."
+      },
+      "devolutiva": {
+        "espelho": "Você é quem lembra do remédio de todo mundo, paga a conta que chegou e ainda pergunta se alguém precisa de algo. Quando sobra um tempo ou um dinheiro, ele já tem dono, e esse dono quase nunca é você. No fim do dia, você deu tudo e recebeu muito pouco para si.",
+        "mapa_posicao": "Você está na segunda etapa porque o bloqueio passou do sentimento do dia e virou um jeito de viver: você em último lugar. Esse padrão ainda pode mudar antes de virar repetição fixa.",
+        "raiz": [
+          "Olha que interessante. Quase sempre esse padrão nasce cedo. Muita gente aprendeu, ainda criança, que para receber amor precisava ajudar, agradar e dar pouco trabalho.",
+          "No meu livro DNA Revelado das Emoções, eu chamo isso de uma das feridas da infância: querer agradar todo mundo. A pessoa cresce e continua pagando pelo amor com cuidado, tempo e dinheiro, como se fosse uma dívida que nunca termina.",
+          "A sua Assinatura Vibracional carrega essa mensagem. Quando você diz todo dia que vem depois, o Universo lê exatamente isso e devolve na mesma frequência: mais contas, mais pedidos e pouco espaço para você. Cocriamos quem somos, e você tem vivido no fim da fila."
+        ],
+        "leitura_cruzada": {
+          "intro": "Veja agora três respostas suas lado a lado. Elas mostram onde o seu cuidado com os outros virou descuido com você.",
+          "trechos": {
+            "p2": {
+              "a": "Você já separa algo para si, e isso é uma conquista para quem tem o coração do tamanho do seu. Ainda assim, as outras respostas mostram que, no tempo e na energia, você continua no fim da fila.",
+              "b": "A casa vem primeiro e você fica com o resto. Repare na palavra resto. Quem vive do resto passa a se sentir resto, e a sua frequência aprende que você merece só o que ninguém mais quis.",
+              "c": "Essa resposta é o retrato desta etapa. A família recebe o melhor de você, e você recebe o depois. O amor pelos seus é lindo, e ele também precisa incluir a pessoa que cuida de todo mundo.",
+              "d": "Quando nunca sobra, o seu dinheiro vira um socorro permanente para os outros. Amar não é o erro. Um coração que só dá, sem receber, entra em falta, e a falta chama mais falta."
+            },
+            "p3": {
+              "a": "Você acha que falta disciplina, e cobra de si o que já entrega aos outros todos os dias. Disciplina você tem de sobra. O que falta é usar essa mesma força a seu favor, pelo menos uma vez por dia.",
+              "b": "Essa é a frase-mãe desta etapa. Repetida por anos, ela vira um comando para o seu inconsciente. E o inconsciente obedece: o depois nunca chega, porque sempre aparece alguém com uma necessidade mais urgente que a sua.",
+              "c": "Voltar sempre ao mesmo lugar é o efeito de se colocar por último. Cada vez que você começa algo seu, alguém precisa de você e você para. O lugar se repete porque a escolha se repete.",
+              "d": "Essa frase dói, e ela mente. Quem cuida de tanta gente prova todo dia que sabe fazer dar certo. O que acontece é que toda a sua força vai para a vida dos outros, e a sua fica sem combustível."
+            },
+            "p6": {
+              "a": "Você resolve as mágoas rápido, e isso é um presente. Só observe se, para soltar logo, você está abrindo mão do que precisava dizer. Em quem cuida de todos, perdoar rápido às vezes vira se calar.",
+              "b": "Remoer por um tempo mostra que algo ficou sem ser dito. Em quem vive para os outros, isso é comum: a mágoa existe, e a pessoa se nega o direito de falar, para não incomodar ninguém.",
+              "c": "Engolir para manter a paz da casa é o gesto clássico desta etapa. Você protege todo mundo do seu incômodo. Só que a emoção engolida fica no corpo e vira cansaço, dor nas costas e uma tristeza sem nome.",
+              "d": "Guardar por anos mostra que alguém já tirou de você mais do que devia. Essa mágoa merece atenção, porque ela reforça a crença de que o seu lugar é servir. Olhar para ela com calma é um ato de amor próprio."
+            }
+          },
+          "sintese": "Juntas, as suas respostas mostram um coração enorme que esqueceu de se incluir. O bloqueio está no merecimento: você dá com facilidade e recebe com culpa. Faz sentido?"
+        },
+        "custo": [
+          "Esse bloqueio cobra em silêncio. Cobra o exame que você adia há meses, o curso que você nunca começou, a roupa que fica na vitrine porque sempre aparece uma prioridade maior. Cobra as noites em que você deita com o corpo moído e percebe que não fez nada por si.",
+          "E cobra nas relações. Quem só dá ensina as pessoas a só pedir. Às vezes bate a mágoa de ninguém perceber o quanto você faz, e junto vem a culpa de sentir essa mágoa. Na sua conta bancária, o padrão aparece igual: o dinheiro passa por você e vai embora para os outros."
+        ],
+        "futuro": [
+          "Se nada mudar, os anos passam e o depois continua sem data. Os filhos crescem, as contas mudam de nome, e você segue no fim da fila. O corpo começa a cobrar o descanso que nunca veio. A mágoa de ninguém enxergar o seu esforço se acumula, e o coração generoso corre o risco de entrar num ciclo que se repete."
+        ],
+        "virada": [
+          "A boa notícia é que esse bloqueio cede com uma escolha simples e corajosa. No movimento Primeiro Você, eu faço uma pergunta: quem é a pessoa mais importante da sua vida? E não vale dizer o nome de outra pessoa.",
+          "Quando você entra na própria lista, você continua cuidando de todos, agora com energia de sobra. O seu amor fica mais forte, porque sai de um coração cheio. Receber também faz parte de amar, e merecer começa quando você se permite."
+        ],
+        "primeiros_passos": [
+          {
+            "titulo": "Separe hoje um gesto só seu",
+            "texto": "Escolha um valor pequeno e use hoje com você: um café tomado com calma, uma flor, um livro. Faça sem pedir desculpas a ninguém e repare no que sente no corpo quando recebe de si."
+          },
+          {
+            "titulo": "Responda a pergunta do Primeiro Você",
+            "texto": "Hoje à noite, pegue papel e escreva: quem é a pessoa mais importante da minha vida? Escreva o seu nome. Depois liste 3 gestos que você faria por si se cuidasse de você como cuida dos seus."
+          },
+          {
+            "titulo": "Diga a sua afirmação no espelho",
+            "texto": "Olhe nos seus olhos e diga em voz alta: eu mereço receber tudo o que eu dou. Repita 3 vezes, de manhã e à noite. Ela está no cartão logo abaixo, pronta para salvar e, se quiser, postar."
+          }
+        ],
+        "ponte": [
+          "Você passou anos cuidando de todo mundo. Agora chegou a sua vez. No dia 28 de outubro, às 19h, eu faço ao vivo a abertura da Black Antecipada, antes da abertura para o público. É a maior oferta que eu já fiz em toda a minha história. O que eu tenho de mais intenso e libertador vai estar lá, com o caminho completo para limpar esse bloqueio. Uma noite assim não se repete.",
+          "Esteja comigo ao vivo e, pela primeira vez, coloque você no primeiro lugar da fila. Toque no botão, entre agora no grupo da Black, onde chegam o link e os avisos da nossa noite, e assine por você."
+        ],
+        "prova": "Eu sei o que é colocar todo mundo antes de mim. Quando eu me incluí na minha própria lista, a minha vida mudou. Foi assim que eu saí de quase R$ 1 milhão em dívidas.",
+        "cta": {
+          "texto": "Quero me colocar em primeiro lugar",
+          "link": "https://black.elainneourives.com.br/primeiro-voce-v1/?utm_source=organico&utm_campaign=quiz&utm_medium=jaque"
+        }
+      }
+    },
+    {
+      "id": "e3",
+      "nome": "Bloqueio do Ciclo Repetido",
+      "faixa": [
+        13,
+        18
+      ],
+      "resumo": "O mesmo filme volta: o dinheiro entra e some, o que começa bem trava. Você entende tudo com a cabeça, e o padrão continua.",
+      "compartilhar": {
+        "proximo_salto": "um novo ciclo",
+        "afirmacao": "Eu começo um novo ciclo agora."
+      },
+      "devolutiva": {
+        "espelho": "O dinheiro entra e, quando você vê, já foi embora. Quando algo começa a dar certo, do nada aparece um problema e tudo trava de novo. Você já entendeu o porquê com a cabeça, e mesmo assim o filme se repete.",
+        "mapa_posicao": "Você está na terceira etapa porque o bloqueio virou um padrão que aparece em várias áreas da vida. O que separa você da última etapa é que a dor ainda não endureceu em proteção.",
+        "raiz": [
+          "Pera aí, que isso tem explicação. O seu cérebro cria redes neurais para tudo o que você repete. Emoções vividas por anos, como medo de perder e sensação de falta, viram um caminho pronto dentro de você.",
+          "No meu livro DNA Revelado das Emoções, eu explico que o corpo fica viciado na química dessas emoções. Ele procura o estado conhecido, mesmo que doa. Então, quando a vida melhora, o corpo estranha e encontra um jeito de voltar ao lugar de sempre.",
+          "Por isso entender ainda não basta. A sua cabeça quer o novo, e o seu corpo puxa o velho. Enquanto a emoção de base for a falta, a sua Assinatura Vibracional chama de volta as mesmas situações. O dinheiro some porque a frequência ainda é de quem espera perder."
+        ],
+        "leitura_cruzada": {
+          "intro": "Agora veja três respostas suas juntas. Elas mostram as engrenagens que mantêm o seu ciclo girando.",
+          "trechos": {
+            "p2": {
+              "a": "Você já se permite gastar consigo, e isso conta a seu favor. Então o ciclo, no seu caso, mora no medo de perder o que chega, que faz o dinheiro escapar por outros caminhos, como imprevistos e urgências.",
+              "b": "A casa vem primeiro e você fica com o resto. Esse jeito de dividir costuma vir de casa, de quem viu os pais sempre apertados. O padrão financeiro da família se repete em você, mesmo com uma renda diferente.",
+              "c": "Você coloca a família antes de você, e isso alimenta o ciclo. Cada vez que o dinheiro chega, ele já tem destino. A sensação de que ele foge é real: ele sai antes de você sentir que ele é seu.",
+              "d": "Nunca sobrar é o retrato do ciclo. O dinheiro chega e alguém precisa mais. A mente vive em alerta de falta, e esse alerta é a frequência que volta para você em forma de novas emergências."
+            },
+            "p3": {
+              "a": "Você acha que falta disciplina. Só que disciplina para fazer o certo você já teve várias vezes. O ciclo volta porque a emoção por trás dele continua lá, e força de vontade sozinha não alcança o inconsciente.",
+              "b": "Deixar para depois é uma das engrenagens do ciclo. Você adia o que é seu e, quando finalmente tenta, a vida chama de volta. O adiamento repetido ensina ao corpo que a sua vez nunca chega.",
+              "c": "Essa é a frase exata desta etapa. Você enxerga o padrão, e isso é muito. Enxergar sem mudar a emoção de base, porém, só aumenta a frustração. A boa notícia: quem enxerga já está perto de sair.",
+              "d": "Essa frase é o ciclo falando por você. Depois de tantas voltas, a mente conclui que o problema é você. Eu já pensei isso, com a geladeira vazia na minha frente. Hoje eu sei que era um padrão, e padrão se muda."
+            },
+            "p6": {
+              "a": "Você solta as mágoas rápido, e isso é um ponto forte. Então o seu ciclo tem outra origem: crenças sobre dinheiro e sobre merecer, aprendidas cedo e repetidas por anos sem você perceber.",
+              "b": "Remoer por um tempo mantém a emoção viva por mais horas do que ela precisa. Cada volta na mesma cena reforça a rede neural do ciclo. Por isso o mesmo tipo de problema parece voltar com outra roupa.",
+              "c": "Engolir mantém a paz por fora e o ciclo por dentro. A emoção guardada vira tensão constante, e uma pessoa tensa decide no medo. Decisões de dinheiro tomadas no medo alimentam exatamente o padrão que você quer quebrar.",
+              "d": "Guardar por anos dá ao ciclo um combustível permanente. Cada lembrança reacende a mesma química de dor no corpo. Essa mágoa merece cuidado, porque ela pode ser a peça que faz o filme voltar ao começo."
+            }
+          },
+          "sintese": "Juntas, as suas respostas mostram um ciclo com engrenagem própria: a emoção de base puxa você de volta sempre que a vida melhora. Agora você sabe onde o trabalho começa."
+        },
+        "custo": [
+          "Esse ciclo cobra juros. Cobra os anos de esforço que parecem não somar, o salário que acaba antes do mês, a dívida que você paga e outra que aparece no lugar. Cobra a vergonha de recomeçar mais uma vez na frente de quem você ama.",
+          "Cobra no corpo também. A tensão de esperar o próximo problema aparece no sono picado, no estômago apertado e na irritação por pouco. E cobra a sua fé em você: cada volta ao mesmo lugar tira um pedaço da certeza de que dá para mudar."
+        ],
+        "futuro": [
+          "Se nada mudar, o ciclo encurta. As fases boas ficam mais curtas e as quedas chegam mais rápido. Você passa a esperar o problema antes dele aparecer, e o corpo vive em alerta. Aos poucos, a dor que se repete endurece e vira proteção, que é a etapa mais funda do mapa. E você começa a acreditar que a sua vida é assim mesmo."
+        ],
+        "virada": [
+          "Agora vem a parte que eu mais amo ensinar. Um padrão que foi aprendido pode ser reaprendido. No meu livro DNA Revelado das Emoções, eu mostro que um novo hábito leva em média de 21 a 66 dias para se firmar, podendo chegar a 90.",
+          "Quando você muda a emoção de base, o corpo deixa de buscar o lugar velho. Eu vivi isso: quando eu mudei quem eu era, a minha realidade mudou muito rápido. O seu ciclo teve um começo, e ele pode ter um fim."
+        ],
+        "primeiros_passos": [
+          {
+            "titulo": "Faça a limpeza mental desta noite",
+            "texto": "Pegue papel e faça duas colunas. Na primeira, escreva as 3 preocupações que mais voltam. Na segunda, a emoção boa que substituiria cada uma. Depois diga em voz alta: limpa em mim o medo agora, eu sou confiança agora."
+          },
+          {
+            "titulo": "Mapeie uma volta do ciclo",
+            "texto": "Lembre a última vez que o dinheiro sumiu ou que algo travou. Anote o gatilho, o que você fez e o alívio que veio depois. Mude só uma dessas peças esta semana, uma de cada vez."
+          },
+          {
+            "titulo": "Use a sua afirmação no gatilho",
+            "texto": "Toda vez que o filme velho começar, respire fundo e diga: eu começo um novo ciclo agora. A frase está no cartão logo abaixo, pronta para salvar no celular e, se quiser, postar."
+          }
+        ],
+        "ponte": [
+          "Entender você já entende. O que falta é o caminho que quebra esse ciclo de vez. No dia 28 de outubro, às 19h, eu faço ao vivo a abertura da Black Antecipada, antes da abertura para o público. É a maior oferta que eu já fiz em toda a minha história. O que eu tenho de mais intenso e libertador vai estar lá, com o caminho completo para limpar esse bloqueio. Uma noite assim não se repete.",
+          "Esteja comigo ao vivo, porque é naquela noite que o ciclo novo começa. Toque no botão, entre agora no grupo da Black, onde chegam o link e os avisos da nossa noite, e escolha o seu novo começo."
+        ],
+        "prova": "Eu conheço esse ciclo de perto. Entre 2010 e 2015, morei num escritório com os 3 filhos e cheguei a quase R$ 1 milhão em dívidas. Quando mudei a minha frequência, o ciclo quebrou.",
+        "cta": {
+          "texto": "Quero começar um ciclo novo dia 28",
+          "link": "https://black.elainneourives.com.br/primeiro-voce-v1/?utm_source=organico&utm_campaign=quiz&utm_medium=jaque"
+        }
+      }
+    },
+    {
+      "id": "e4",
+      "nome": "Bloqueio da Armadura Antiga",
+      "faixa": [
+        19,
+        24
+      ],
+      "resumo": "Uma dor antiga ainda reage antes de você. Por fora você segue forte, por dentro o corpo vive em alerta e a vida anda no modo sobrevivência.",
+      "compartilhar": {
+        "proximo_salto": "a leveza",
+        "afirmacao": "Eu solto o que pesou e escolho viver com leveza."
+      },
+      "devolutiva": {
+        "espelho": "Por fora, você dá conta de tudo e todo mundo vê em você uma rocha. Por dentro, uma dor antiga ainda reage antes de você: uma palavra atravessada e o coração dispara, uma lembrança e o dia escurece. Você vive em alerta há tanto tempo que isso parece normal.",
+        "mapa_posicao": "Você está na quarta etapa porque a dor guardada passou a comandar as reações e a vida anda no modo sobrevivência. Esta etapa é a mais funda, e também a que mais muda quando recebe cuidado.",
+        "raiz": [
+          "Eu quero explicar isso com carinho. Quando alguém passa por rejeição, abandono, traição, humilhação ou injustiça, a emoção fica guardada no inconsciente. No meu livro DNA Revelado das Emoções, eu chamo isso de feridas emocionais.",
+          "Para não sentir aquela dor de novo, a mente constrói uma armadura. Ela protege, e protege muito. Só que a armadura barra tudo por igual: barra a dor e barra também o amor, o dinheiro e as oportunidades que chegam.",
+          "Uma pessoa em modo de sobrevivência gasta quase toda a energia se defendendo, e sobra pouca frequência para cocriar sonho. A culpa nunca foi sua. A armadura foi o jeito que você encontrou de continuar de pé quando ninguém segurou a sua mão."
+        ],
+        "leitura_cruzada": {
+          "intro": "Veja três respostas suas com calma, uma ao lado da outra. Elas mostram onde a armadura ainda está protegendo você.",
+          "trechos": {
+            "p2": {
+              "a": "Você ainda consegue separar algo para si, e isso mostra que a armadura deixou uma porta aberta. Por essa porta a sua leveza volta. Proteja esse gesto, porque ele é maior do que parece.",
+              "b": "Você cuida da casa primeiro, como quem garante o chão antes de tudo. Faz sentido para quem já viveu insegurança. A armadura diz: primeiro a sobrevivência, depois a vida. E o depois quase nunca chega.",
+              "c": "Colocar a família à frente também é um jeito de se proteger. Enquanto você cuida de todos, falta tempo para sentir a própria dor. A ferida fica quieta, e continua decidindo por você.",
+              "d": "Quando nunca sobra, o corpo vive em emergência permanente. Para quem carrega uma ferida antiga, a falta de dinheiro reabre a sensação de desamparo. Por isso cada conta pesa mais do que o valor escrito nela."
+            },
+            "p3": {
+              "a": "Você atribui tudo à falta de disciplina e cobra de si uma força que já usa todos os dias só para seguir em frente. A armadura gasta essa energia. A disciplina vem fácil quando o peso sai.",
+              "b": "Deixar o seu cuidado para depois combina com a armadura. Olhar para si exigiria olhar para a dor. Então a mente adia, com ótimas desculpas. Esse adiamento protege hoje e cobra amanhã.",
+              "c": "Voltar ao mesmo lugar, nesta etapa, tem uma raiz clara. A ferida antiga puxa você para as mesmas situações, porque o inconsciente tenta resolver a dor repetindo a cena. Enxergar isso já afrouxa a armadura.",
+              "d": "Essa frase nasceu de uma dor antiga. Eu já pensei exatamente isso, sentada no chão, na frente da geladeira vazia. Naquela noite eu descobri que a frase mentia. Ela também mente para você."
+            },
+            "p6": {
+              "a": "Você solta as mágoas novas com rapidez, e isso é um recurso precioso. Na sua etapa, a armadura costuma vir de dores mais antigas, da infância ou de perdas que nunca tiveram espaço para ser choradas.",
+              "b": "Remoer por um tempo mostra que a ferida ainda responde quando alguém encosta nela. Cada mágoa nova acorda a antiga. Por isso a reação parece maior do que o fato, e depois vem o cansaço.",
+              "c": "Engolir e fingir que está tudo bem é a armadura em ação. A dor fica e se acomoda no corpo: no ombro duro, no sono que não descansa, no aperto no peito. O corpo guarda o que a boca cala.",
+              "d": "Guardar por anos e lembrar como se fosse hoje é o sinal mais claro desta etapa. A ferida continua aberta no tempo presente. Ela merece cuidado de verdade, e com ajuda você pode olhar para ela sem se perder."
+            }
+          },
+          "sintese": "Juntas, as suas respostas mostram uma pessoa que precisou ser forte cedo demais. A armadura salvou você um dia. Agora ela pesa, e chegou a hora de soltar com segurança."
+        },
+        "custo": [
+          "Essa armadura custa energia todos os dias. Custa o sono que não descansa, o corpo sempre tenso, a dor de cabeça no fim da tarde. Custa a dificuldade de receber um elogio, um abraço ou uma ajuda sem desconfiar.",
+          "Custa nas relações, quando você se fecha antes de se machucar, e no dinheiro, quando você recusa uma oportunidade por medo de dar errado de novo. E custa o mais caro: a alegria simples de um domingo sem peso no peito. Muita gente nesta etapa nem lembra mais como é se sentir leve."
+        ],
+        "futuro": [
+          "Se nada mudar, a armadura engrossa. O corpo continua em alerta, e o cansaço vira o estado normal. As pessoas que amam você sentem a distância, mesmo sem entender o motivo. A vida segue no modo sobrevivência, com os sonhos guardados para um dia que demora a chegar. E a sua força, que é enorme, continua gasta só em se proteger."
+        ],
+        "virada": [
+          "Agora escute isto com o coração. Só podemos mudar o que aceitamos. O que não aceitamos persiste. Quando você enxerga a armadura, você para de brigar consigo e começa a cuidar da ferida que ela protege.",
+          "Em todo fundo do poço existe uma mola que leva a pessoa para cima. Eu sei porque eu estive lá. Quando eu perdoei e mudei a minha frequência, a minha vida mudou muito rápido. A sua leveza ainda está aí, esperando a armadura sair."
+        ],
+        "primeiros_passos": [
+          {
+            "titulo": "Faça o exercício do abraço",
+            "texto": "Hoje à noite, feche os olhos e imagine a criança que você foi. Abrace essa criança, diga que ela está segura e que você a ama. Fique ali por 3 minutos e depois escreva o que sentiu."
+          },
+          {
+            "titulo": "Respire em 5 por 5",
+            "texto": "Quando o coração disparar, inspire contando até 5 e solte o ar contando até 5. Repita por 1 minuto, com a mão no peito. Isso ajuda o corpo a sair do alerta."
+          },
+          {
+            "titulo": "Leve a sua afirmação no coração",
+            "texto": "Com a mão no peito, diga devagar: eu solto o que pesou e escolho viver com leveza. Diga ao acordar e antes de dormir. Ela está no cartão logo abaixo, para guardar e, se quiser, postar."
+          }
+        ],
+        "ponte": [
+          "Você não precisa carregar essa armadura para sempre. No dia 28 de outubro, às 19h, eu faço ao vivo a abertura da Black Antecipada, antes da abertura para o público. É a maior oferta que eu já fiz em toda a minha história. O que eu tenho de mais intenso e libertador vai estar lá, com o caminho completo para limpar esse bloqueio. Uma noite assim não se repete.",
+          "Esteja comigo ao vivo e permita que essa noite seja o começo da sua leveza. Toque no botão, entre agora no grupo da Black, onde chegam o link e os avisos da nossa noite, e assine por você."
+        ],
+        "prova": "Eu saí do fundo do poço: entre 2010 e 2015, morei num escritório com os 3 filhos e quase R$ 1 milhão em dívidas. Hoje mais de 3 milhões de pessoas me acompanham.",
+        "cta": {
+          "texto": "Quero começar a soltar esse peso dia 28",
+          "link": "https://black.elainneourives.com.br/primeiro-voce-v1/?utm_source=organico&utm_campaign=quiz&utm_medium=jaque"
+        }
+      }
+    }
+  ]
+}
