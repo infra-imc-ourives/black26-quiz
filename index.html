@@ -294,7 +294,7 @@ body.na-capa{background:radial-gradient(ellipse at 50% 34%,#3a2c12 0%,#14100a 46
 
 <script>
 (function(){
-  var C={"endereco_recebimento": "[PREENCHER: endereço que recebe os dados, da ferramenta de e-mail ou da automação]", "campos_fixos": {}, "campo_nome": "nome", "campo_email": "email", "campo_bloqueio": "bloqueio", "link_grupo": "https://sndflw.com/i/holo-black-2026", "titulo": "O seu resultado está pronto", "texto": "Para onde eu envio o seu resultado completo, para você guardar, e o seu presente?", "botao": "Ver meu resultado", "aviso": "Você também recebe os avisos da nossa noite ao vivo, em 28/10, às 19h."}, app=document.getElementById("app"), Q=JSON.parse(document.getElementById("quiz-dados").textContent);
+  var C={"endereco_recebimento": "https://automacao-n8n-n8n.6v8bw5.easypanel.host/webhook/black26-quiz-isca", "campos_fixos": {}, "campo_nome": "nome", "campo_email": "email", "campo_bloqueio": "bloqueio", "link_grupo": "https://sndflw.com/i/holo-black-2026", "titulo": "O seu resultado está pronto", "texto": "Para onde eu envio o seu resultado completo, para você guardar, e o seu presente?", "botao": "Ver meu resultado", "aviso": "Você também recebe os avisos da nossa noite ao vivo, em 28/10, às 19h."}, app=document.getElementById("app"), Q=JSON.parse(document.getElementById("quiz-dados").textContent);
   var SLUG={"Bloqueio do Quase Lá":"quase-la","Bloqueio do Coração Generoso":"coracao-generoso","Bloqueio do Ciclo Repetido":"ciclo-repetido","Bloqueio da Armadura Antiga":"armadura-antiga"};
   var liberado=false;
   function bloqueio(){ var esp=app.querySelector('[data-bloco="espelho"]'), t=esp?esp.innerText:app.innerText;
