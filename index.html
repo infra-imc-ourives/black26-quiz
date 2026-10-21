@@ -123,6 +123,13 @@ body.na-capa{background:radial-gradient(ellipse at 50% 34%,#3a2c12 0%,#14100a 46
   var app = document.getElementById("app");
   var total = Q.perguntas.length;
   var respostas = {};
+  // Lido pelo formulário de cadastro para enviar todas as respostas ao webhook.
+  window.quizRespostas = function(){
+    return Q.perguntas.map(function(p){
+      var o = p.opcoes.filter(function(x){ return x.id === respostas[p.id]; })[0] || {};
+      return {id:p.id, pergunta:p.texto, opcao:o.id||"", resposta:o.texto||"", pontos:o.pontos||0};
+    });
+  };
   var ordem = [];
   var atual = -1;
 
@@ -304,6 +311,9 @@ body.na-capa{background:radial-gradient(ellipse at 50% 34%,#3a2c12 0%,#14100a 46
     var d=new URLSearchParams(); Object.keys(C.campos_fixos||{}).forEach(function(k){d.append(k,C.campos_fixos[k]);});
     d.append(C.campo_nome,nome); d.append(C.campo_email,email); d.append(C.campo_bloqueio,b);
     d.append("origem","teste-do-bloqueio");
+    var R=window.quizRespostas?window.quizRespostas():[], tot=0;
+    R.forEach(function(r){ d.append(r.id,r.resposta); d.append(r.id+"_pontos",r.pontos); tot+=r.pontos; });
+    d.append("pontos",tot); d.append("respostas",JSON.stringify(R));
     try{ fetch(C.endereco_recebimento,{method:"POST",mode:"no-cors",body:d}); }catch(e){}
   }
   function linkGrupo(){ var a=app.querySelector('.chamada[data-bloco="cta"] a'); if(a&&/^https?:/.test(C.link_grupo)) a.href=C.link_grupo; }
